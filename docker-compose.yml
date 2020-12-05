@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  mongodb:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: MyDb
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+
+  aspnetcoremongodb:
+    image: ${DOCKER_REGISTRY-}aspnetcoremongodb
+    build:
+      context: .
+      dockerfile: AspNetCoreMongoDb/Dockerfile
+    depends_on:
+      - mongodb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreMongoDb", "AspNetCoreMongoDb\AspNetCoreMongoDb.csproj", "{8C10B767-CFB8-4DC2-95CE-73A02766B6C9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{12452EE3-1910-4965-9879-06A4215E05CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C10B767-CFB8-4DC2-95CE-73A02766B6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C10B767-CFB8-4DC2-95CE-73A02766B6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C10B767-CFB8-4DC2-95CE-73A02766B6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C10B767-CFB8-4DC2-95CE-73A02766B6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12452EE3-1910-4965-9879-06A4215E05CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12452EE3-1910-4965-9879-06A4215E05CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12452EE3-1910-4965-9879-06A4215E05CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12452EE3-1910-4965-9879-06A4215E05CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5539DDB5-27BF-43F0-AD99-F6FB9552DAAE}
+	EndGlobalSection
+EndGlobal
